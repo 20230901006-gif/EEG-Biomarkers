@@ -122,7 +122,27 @@ The notebooks should be executed in the above order, as each stage builds upon t
 
 ## Repository Structure
 
-*Coming soon.*
+## Repository Structure
+
+```
+EEG-Biomarkers/
+│
+├── README.md                 # Project documentation
+├── LICENSE                   # MIT License
+├── requirements.txt          # Required Python packages
+├── .gitignore               # Files ignored by Git
+│
+├── notebooks/
+│   ├── 01.ipynb
+│   ├── CFCnotebook.ipynb
+│   ├── wavelet.ipynb
+│   ├── Small-Worldness.ipynb
+│   ├── robustness.ipynb
+│   └── ML_Apply.ipynb
+│
+├── figures/                 # Generated plots and visualizations
+└── data/                    # Dataset location (not included)
+```
 
 ## Future Work
 
