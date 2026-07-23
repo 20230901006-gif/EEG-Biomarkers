@@ -146,12 +146,19 @@ EEG-Biomarkers/
 
 ## Future Work
 
-*Coming soon.*
+## Future Work
+
+- Expand the analysis to larger EEG datasets.
+- Investigate additional functional connectivity metrics.
+- Explore deep learning models for EEG-based classification.
+- Validate the proposed biomarkers across multiple clinical populations.
+- Develop an automated pipeline for real-time EEG biomarker analysis.
 
 ## Citation
 
-If you use this repository in your research, please cite it appropriately.
+## Citation
 
+If you use this repository in your research or academic work, please cite this GitHub repository or contact the repository author for citation information.
 ## License
 
 This project is licensed under the MIT License.
