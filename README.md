@@ -61,8 +61,6 @@ Generate:
 
 ## Results
 
-## Results
-
 The analysis pipeline generates multiple visual and quantitative outputs to evaluate functional brain connectivity and identify potential EEG biomarkers.
 
 ### Generated Outputs
@@ -90,7 +88,37 @@ These visualizations support the comparison of functional connectivity patterns 
 
 ## How to Run
 
-*Coming soon.*
+## How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/EEG-Biomarkers.git
+cd EEG-Biomarkers
+```
+
+### 2. Install the required packages
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Open Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+### 4. Run the notebooks in sequence
+
+1. `01.ipynb`
+2. `CFCnotebook.ipynb`
+3. `wavelet.ipynb`
+4. `Small-Worldness.ipynb`
+5. `robustness.ipynb`
+6. `ML_Apply.ipynb`
+
+The notebooks should be executed in the above order, as each stage builds upon the outputs of the previous analysis.
 
 ## Repository Structure
 
