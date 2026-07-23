@@ -61,7 +61,32 @@ Generate:
 
 ## Results
 
-*Coming soon.*
+## Results
+
+The analysis pipeline generates multiple visual and quantitative outputs to evaluate functional brain connectivity and identify potential EEG biomarkers.
+
+### Generated Outputs
+
+- Functional connectivity matrices using Magnitude Squared Coherence (MSC)
+- Functional connectivity matrices using Weighted Phase Lag Index (wPLI)
+- Power Spectral Density (PSD) analysis
+- Time–frequency representations using Wavelet Transform
+- Small-Worldness network analysis
+- Connectivity heatmaps
+- Brain network visualizations
+- Machine learning predictions for classification
+
+### Example Results
+
+The `figures/` directory contains visualizations generated throughout the analysis, including:
+
+- EEG connectivity heatmaps
+- Brain connectivity networks
+- PSD plots
+- Wavelet analysis results
+- Small-Worldness graphs
+
+These visualizations support the comparison of functional connectivity patterns between Individuals with Intellectual Disabilities (IDD) and Typically Developing Controls (TDC).
 
 ## How to Run
 
