@@ -1,0 +1,8 @@
+numpy
+scipy
+pandas
+matplotlib
+mne
+mne-connectivity
+statsmodels
+jupyter
