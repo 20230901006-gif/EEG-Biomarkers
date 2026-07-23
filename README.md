@@ -22,7 +22,42 @@ The primary objective of this repository is to provide a reproducible pipeline f
 
 ## Methods
 
-*Coming soon.*
+## Methods
+
+The analysis pipeline follows a structured workflow for identifying EEG-based biomarkers from resting-state EEG recordings.
+
+### 1. EEG Data Loading
+- Load EEG recordings and subject information.
+- Verify data integrity and channel configuration.
+
+### 2. EEG Preprocessing
+- Remove artifacts and noisy segments.
+- Apply filtering and signal normalization.
+- Perform quality assessment before analysis.
+
+### 3. Time–Frequency Analysis
+- Perform wavelet-based analysis to investigate frequency-specific brain activity.
+
+### 4. Functional Connectivity Analysis
+Two complementary connectivity measures are used:
+
+- **Magnitude Squared Coherence (MSC):** Measures frequency-domain synchronization between EEG channels.
+- **Weighted Phase Lag Index (wPLI):** Measures phase synchronization while minimizing the influence of volume conduction.
+
+### 5. Network Analysis
+- Construct functional brain connectivity matrices.
+- Evaluate network characteristics using Small-Worldness and other graph-based measures.
+
+### 6. Machine Learning
+- Extract connectivity-based features.
+- Train and evaluate machine learning models for distinguishing IDD and TDC participants.
+
+### 7. Visualization
+Generate:
+- Connectivity heatmaps
+- Brain connectivity matrices
+- Power Spectral Density (PSD) plots
+- Network visualizations
 
 ## Results
 
